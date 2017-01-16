@@ -1,0 +1,122 @@
+{
+  "appDesc": {
+    "description": "The description of the application, displayed in the web store.",
+    "message": "Allows the user to quickly navigate through JIRA projects."
+  },
+  "baseURL": {
+    "description": "URL base for the JIRA domain.",
+    "message": "JIRA Base URL"
+  },
+  "baseURLDescription": {
+    "description": "Description text for baseURL.",
+    "message": "Please enter the JIRA base URL here. \u003Cbr>Example: \u003Cem class='my-url'>https://jira.atlassian.com/\u003C/em>\u003Cbr>"
+  },
+  "clearedOptions": {
+    "description": "Message displayed when options are cleared.",
+    "message": "Options Cleared"
+  },
+  "currentTab": {
+    "description": "Open JIRA project in the current tab.",
+    "message": "Current Tab"
+  },
+  "defaultAction": {
+    "description": "Default action for opening JIRA.",
+    "message": "Default Action"
+  },
+  "defaultActionDescription": {
+    "description": "Description text for defaultAction.",
+    "message": "Choose the default action when opening a JIRA page."
+  },
+  "defaultProj": {
+    "description": "Default project that JIRA Browser will open.",
+    "message": "Default Project (Optional)"
+  },
+  "defaultProjDescription": {
+    "description": "Description text for defaultProj.",
+    "message": "Please enter a default JIRA project here. This project will automatically be selected if available. \u003Cbr>If no default project is specified, the last used project will be used instead. \u003Cbr>Example: \u003Cem class='my-url'>CNF\u003C/em>\u003Cbr>"
+  },
+  "defaultTitle": {
+    "description": "Title text when user hovers over extension icon.",
+    "message": "JIRA Browser"
+  },
+  "displayAll": {
+    "description": "Default text for the Type(s) dropdown in popup.",
+    "message": "Display All"
+  },
+  "HTTPError": {
+    "description": "Message displayed on HTTP GET error.",
+    "message": "Undefined HTTP error: "
+  },
+  "URLError": {
+    "description": "Message displayed on HTTP GET error with unreachable URL.",
+    "message": "Could not reach designated URL!"
+  },
+  "invalidURL": {
+    "description": "Message displayed on URL error.",
+    "message": "Please specify a valid URL!"
+  },
+  "jiraTimeout": {
+    "description": "Message displayed on JIRA timeout.",
+    "message": "Unable to fetch data - JIRA Timeout"
+  },
+  "loadingFinished": {
+    "description": "Message displayed when process finishes.",
+    "message": "Loading Finished - Displaying: "
+  },
+  "loadingFinishedStatus": {
+    "description": "Message displayed when process finishes and user hovers over status bar.",
+    "message": "Go to project page"
+  },
+  "loadingOf": {
+    "description": "Second half of message displayed while process is loading. 'X' of 'Y'",
+    "message": " of "
+  },
+  "loadingStatus": {
+    "description": "Message displayed while process is loading.",
+    "message": " Loading... "
+  },
+  "loginRequired": {
+    "description": "Message displayed when URL request returns 401.",
+    "message": "Login Required - Click here to sign in."
+  },
+  "loginRequiredStatus": {
+    "description": "Message displayed when URL request returns 401 and user hovers over status bar.",
+    "message": "Go to login page"
+  },
+  "newTab": {
+    "description": "Open JIRA project in a new tab.",
+    "message": "New Tab"
+  },
+  "openInCurrentTab": {
+    "description": "Message displayed on right click.",
+    "message": "Open project in current tab"
+  },
+  "openInNewTab": {
+    "description": "Message displayed on right click.",
+    "message": "Open project in new tab"
+  },
+  "projectNotFound": {
+    "description": "Message displayed when URL request returns 400.",
+    "message": "Unable to fetch data - Project Not Found"
+  },
+  "projectText": {
+    "description": "Text for the project field.",
+    "message": "Project:"
+  },
+  "saveOptions": {
+    "description": "Text for Save Options button in Options.",
+    "message": "Save Options"
+  },
+  "savedOptions": {
+    "description": "Message displayed when options are saved.",
+    "message": "Options Saved"
+  },
+  "ticketText": {
+    "description": "Text for the ticket field.",
+    "message": "Ticket:"
+  },
+  "typeText": {
+    "description": "Text for the type field.",
+    "message": "Type(s):"
+  }
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title data-i18n="optionsTitle"></title>
+  <link rel="stylesheet" type="text/css" href="../css/style.css">
+  <link rel="icon" type="image/png" href="../images/icon128.png">
+</head>
+
+<body>
+  <section class="my-page">
+    <h3 data-i18n="baseURL"></h3>
+    <p data-i18n="baseURLDescription"></p>
+    <input type="text" id="options-jira-url" class="textbox" autofocus required>
+
+    <h3 data-i18n="defaultProj"></h3>
+    <p data-i18n="defaultProjDescription"></p>
+    <input type="text" id="options-proj" class="textbox" style="text-transform:uppercase">
+
+    <h3 data-i18n="defaultAction"></h3>
+    <p data-i18n="defaultActionDescription"></p>
+    <select id="options-tab">
+        <option data-i18n="currentTab"></option>
+        <option data-i18n="newTab"></option>
+      </select>
+
+    <div>
+      <button id="options-save">Save Options</button>
+      <p id="options-status" class="red"></p>
+      <button id="options-clear" class="right">Clear Options</button>
+    </div>
+  </section>
+
+  <section class="my-footer">
+  </section>
+</body>
+
+<script type="text/javascript" src="../js/options.js"></script>
+<script type="text/javascript" src="../js/localizer.js"></script>
+
+</html>

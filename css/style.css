@@ -1,0 +1,330 @@
+body {
+  background: #ededed;
+  font-size: 13px;
+  margin: 0;
+}
+
+header {
+  text-align: center;
+  font-weight: bold;
+  background: white;
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+  height: 22px;
+  padding: 3px 0px 0px 5px;
+  white-space: nowrap !important;
+}
+
+.popup {
+  font-size: 14px;
+  margin: 8px;
+  width: 600px;
+}
+
+.my-page p {
+  margin-bottom: 0;
+}
+
+.toolbar {
+  display: flex;
+  height: 30px;
+  width: calc(100% + 10px);
+  align-items: center;
+}
+
+input {
+  width: 100px;
+}
+
+input[type=text]:invalid {
+  border: 1px solid #ff0000;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(255,0, 0, .6);
+}
+
+input[type=text], select, .my-ticket-list ul, .my-type-list, .my-type-list dd {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+}
+
+input[type=text]:focus {
+  border-color: #66afe9;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
+}
+
+input[type=button], button {
+  min-width: 100px;
+  width: auto;
+}
+
+button:focus {
+  outline: 0;
+}
+
+input[type=button]:disabled,
+input[type=button]:disabled:hover,
+input[type=button]:disabled:focus,
+button:disabled,
+button:disabled:hover,
+button:disabled:focus {
+  background-color: grey;
+  border-color: grey;
+  cursor: not-allowed;
+}
+
+input[type=button], input[type=submit], button {
+  background-color: #20315e;
+  border: 1px solid transparent;
+  border-color: #357ebd;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 12px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+input[type=button]:hover, input[type=button]:focus,
+input[type=submit]:hover, input[type=submit]:focus,
+button:hover {
+  background-color: #3071a9;
+  border-color: #285e8e;
+}
+
+label {
+  display: inline-block;
+}
+
+.red {
+  color: #ff0000;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+  margin-left: 24px;
+}
+
+.center {
+  float: left;
+  padding-left: 15px;
+}
+
+.rightcell {
+  margin-left: 10px;
+  float: right;
+  padding: 0px 0px 0px 2px;
+}
+
+.leftcell {
+  width: 30%;
+  padding: 0px 0px 0px 2px;
+}
+
+.ta-right {
+  text-align: right;
+}
+
+.buttons input {
+  margin-bottom: 5px;
+}
+
+.my-ticket-list {
+  padding: 2px 0px;
+  width:100%;
+}
+
+.my-type-list {
+  padding: 2px 0px 2px 2px;
+  margin-left: 5px;
+  width: 50%;
+}
+
+.my-ticket-list dd, .my-ticket-list ul, .my-type-list dd, .my-type-list ddc, .my-type-list dd ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.my-ticket-list dd {
+  position: relative;
+}
+
+.my-type-list ddc type {
+  background: #fff url('../images/down.png') no-repeat scroll right center;
+  background-size: 16px 16px;
+  display: block;
+  padding-right: 20px;
+}
+
+div .my-type-list {
+  position: relative;
+}
+
+.my-type-list dd {
+  position: absolute;
+  display: none;
+  bottom: -1px;
+  left: -1px;
+  right: -1px;
+}
+
+.my-ticket-list dd ul {
+  display: block;
+  left: 0px;
+  padding: 2px 0px 0px 2px;
+  top: 2px;
+  height: 110px;
+  width: calc(100% - 4px);
+  list-style: none;
+  overflow-y: scroll;
+}
+
+.my-type-list dd ul {
+  display: block;
+  left: 0px;
+  padding: 2px 0px 0px 2px;
+  top: 2px;
+  max-height: 110px;
+  width: calc(100% - 2px);
+  list-style: none;
+  overflow-y: scroll;
+}
+
+.my-ticket-list dd ul ticket, .my-type-list dd ul ticket {
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.my-ticket-list img.icon, .my-type-list img.icon {
+  padding-left: 2px;
+  border: none;
+  margin-right: 5px;
+}
+
+.my-page {
+  font-size: 14px;
+  margin: 14px 17px; /* Chrome default */
+  width: 600px;
+}
+
+:enabled:hover:-webkit-any(input[type="checkbox"],input[type="radio"],:-webkit-any(button,input[type="button"],input[type="submit"])) {
+  background-image: none;
+  border-color: #285e8e;
+  box-shadow: none;
+  color: #fff;
+}
+
+input[type=text].textbox {
+  padding-left: 6px;
+  width: 100%;
+}
+
+input[type=text].textbox-small {
+  padding-right: 6px;
+  width: 30%;
+}
+
+select.dropdown {
+  width: 100%;
+}
+
+select.dropdown-small {
+  padding-right: 6px;
+  width: 60%;
+}
+
+.optionbox::-webkit-scrollbar-track
+{
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  background-color: #F5F5F5;
+}
+
+.optionbox::-webkit-scrollbar
+{
+  width: 6px;
+  background-color: #F5F5F5;
+}
+
+.optionbox::-webkit-scrollbar-thumb
+{
+  border-radius: 6px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+  background-color: #555;
+}
+
+.optionbox:focus {
+  outline: none;
+}
+
+.ticket {
+  border-color: #285e8e;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  display: block;
+}
+
+.ticket:hover {
+  background-color: #3071a9;
+  color: #fff;
+  cursor: pointer;
+}
+
+#choice:hover {
+  cursor: pointer;
+}
+
+.bar, .bar:hover {
+  position: absolute;
+  left: -1px;
+  top: -1px;
+  width: 1%;
+  height: 100%;
+  background-color: #20315e;
+  border-radius: 4px;
+  color: #fff;
+  cursor: default;
+  text-align: center;
+}
+
+.header, .header:hover {
+  position: relative;
+  height: 20px;
+  width: calc(100% - 3px);
+  background-color: #3071a9;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  color: #fff;
+  cursor: default;
+  text-align: center;
+}
+
+.status {
+  position: absolute;
+  width: calc(100% - 4px);
+  left: -1px;
+  top: -1px;
+  color: #fff;
+  cursor: default;
+}
+
+#options-status {
+  display: inline;
+  font-weight: bold;
+  padding-left: 5px;
+  vertical-align: bottom;
+}
+
+#options-save, #options-clear {
+  background-image: none;
+  box-shadow: none;
+  display: inline-block;
+  margin: 20px auto 0;
+  text-shadow: none;
+  color: white;
+}

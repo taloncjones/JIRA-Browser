@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>JIRA Browser</title>
+  <link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+
+<body>
+  <header>JIRA Browser</header>
+  <div class="popup">
+    <div>
+      <label id="ticket" class="leftcell" data-i18n="ticketText"></label>
+      <label id="project" class="leftcell ta-right" data-i18n="projectText"></label>
+      <input type="text" id="project-field" class="textbox-small rightcell" style="text-transform:uppercase" autofocus>
+      <div id="ticket-bar" class="ticket header">
+        <div id="ticket-loading" class="ticket bar"></div>
+        <option id="ticket-status" title="JIRA Browser" class="status"></option>
+      </div>
+      <div class="my-ticket-list">
+        <dd>
+          <ul id="proj-tickets" class="optionbox"></ul>
+        </dd>
+      </div>
+    </div>
+    <div class="toolbar">
+      <button id="prev-1000" class="left">Previous</button>
+      <label class="center" data-i18n="typeText"></label>
+      <div class="my-type-list center">
+        <ddc id="choice">
+          <type data-i18n="displayAll"></type>
+        </ddc>
+        <dd id="dropdown">
+          <ul id="type-sort" class="optionbox"></ul>
+        </dd>
+      </div>
+      <button id="next-1000" class="right">Next</button>
+    </div>
+
+  </div>
+</body>
+
+<script type="text/javascript" src="../js/popup.js"></script>
+<script type="text/javascript" src="../js/localizer.js"></script>
+
+</html>
