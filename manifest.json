@@ -9,7 +9,7 @@
   "description": "__MSG_appDesc__",
 
   "icons": {
-    "128": "images/icon128.png"
+    "128": "images/bigIconJira.png"
   },
 
   "background": {
@@ -18,7 +18,7 @@
   },
 
   "browser_action": {
-    "default_icon": "images/favicon.png",
+    "default_icon": "images/bigIconJira.png",
     "default_popup": "html/popup.html",
     "default_title": "__MSG_defaultTitle__"
   },
